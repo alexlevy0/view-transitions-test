@@ -1,7 +1,9 @@
 import type { NextConfig } from "next";
 
-const nextConfig: NextConfig = {
-  /* config options here */
+const config: NextConfig = {
+  experimental: {
+    viewTransition: true,
+  },
 };
 
-export default nextConfig;
+export default config;
