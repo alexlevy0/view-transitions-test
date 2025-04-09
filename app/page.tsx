@@ -50,7 +50,7 @@ export default function Home() {
             <Link
               key={article.id}
               href={`/articles/${article.slug}`}
-              className="flex gap-6 p-6 border rounded-lg hover:bg-gray-50"
+              className="flex gap-6 p-6 border rounded-lg hover:bg-gray-950 hover:shadow-md hover:shadow-gray-300 hover:scale-101 transition-all duration-300 hover:cursor-pointer"
               onClick={(e) => handleClick(e, article.slug)}
             >
               <ArticleImage
